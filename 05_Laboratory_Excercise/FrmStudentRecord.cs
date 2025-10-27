@@ -49,11 +49,11 @@ namespace _05_Laboratory_Excercise
                     {
                         var studentItems = System.IO.File.ReadLines(filePath)
                           
-                            .Select(line => line.Split(',')) // Split each line into an array of strings
-                            .Where(parts => parts.Length > 0 && !string.IsNullOrWhiteSpace(parts[0])) // Basic validation
+                            .Select(line => line.Split(',')) 
+                            .Where(parts => parts.Length > 0 && !string.IsNullOrWhiteSpace(parts[0])) 
                             .Select(parts =>
                             {
-                                // Create a new ListViewItem from the first part (parts[0])
+                               
                                 ListViewItem item = new ListViewItem(parts[0].Trim());
 
                                 for (int i = 1; i < parts.Length; i++)
