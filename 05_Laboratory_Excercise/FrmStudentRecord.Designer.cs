@@ -52,8 +52,9 @@
             this.bntregister.Name = "bntregister";
             this.bntregister.Size = new System.Drawing.Size(155, 47);
             this.bntregister.TabIndex = 1;
-            this.bntregister.Text = "Register";
+            this.bntregister.Text = "REGISTER";
             this.bntregister.UseVisualStyleBackColor = false;
+            this.bntregister.Click += new System.EventHandler(this.bntregister_Click);
             // 
             // bntFind
             // 
@@ -63,8 +64,9 @@
             this.bntFind.Name = "bntFind";
             this.bntFind.Size = new System.Drawing.Size(155, 47);
             this.bntFind.TabIndex = 2;
-            this.bntFind.Text = "Find";
+            this.bntFind.Text = "FIND";
             this.bntFind.UseVisualStyleBackColor = false;
+            this.bntFind.Click += new System.EventHandler(this.bntFind_Click);
             // 
             // bntUpload
             // 
@@ -74,7 +76,7 @@
             this.bntUpload.Name = "bntUpload";
             this.bntUpload.Size = new System.Drawing.Size(155, 47);
             this.bntUpload.TabIndex = 3;
-            this.bntUpload.Text = "Upload";
+            this.bntUpload.Text = "UPLOAD";
             this.bntUpload.UseVisualStyleBackColor = false;
             this.bntUpload.Click += new System.EventHandler(this.bntUpload_Click);
             // 
