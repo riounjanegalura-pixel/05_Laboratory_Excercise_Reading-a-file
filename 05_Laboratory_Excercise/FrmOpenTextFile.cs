@@ -45,6 +45,13 @@ namespace _05_Laboratory_Excercise
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord studentRecordForm = new FrmStudentRecord();
+            studentRecordForm.Show();
+            Hide();
+        }
     }
 }
 
