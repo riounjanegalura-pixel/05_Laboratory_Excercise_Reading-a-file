@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOpenTextFile));
             this.bntOpen = new System.Windows.Forms.Button();
             this.lvShowText = new System.Windows.Forms.ListView();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // bntOpen
@@ -54,6 +55,10 @@
             this.lvShowText.TabIndex = 1;
             this.lvShowText.UseCompatibleStateImageBehavior = false;
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // FrmOpenTextFile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -74,6 +79,7 @@
 
         private System.Windows.Forms.Button bntOpen;
         private System.Windows.Forms.ListView lvShowText;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
