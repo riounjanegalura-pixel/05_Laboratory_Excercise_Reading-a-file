@@ -44,6 +44,7 @@
             this.bntOpen.TabIndex = 0;
             this.bntOpen.Text = "Open";
             this.bntOpen.UseVisualStyleBackColor = false;
+            this.bntOpen.Click += new System.EventHandler(this.bntOpen_Click);
             // 
             // lvShowText
             // 

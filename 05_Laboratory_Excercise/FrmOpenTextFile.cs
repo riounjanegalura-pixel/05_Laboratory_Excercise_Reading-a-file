@@ -16,5 +16,10 @@ namespace _05_Laboratory_Excercise
         {
             InitializeComponent();
         }
+
+        private void bntOpen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
